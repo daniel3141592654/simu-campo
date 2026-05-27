@@ -235,8 +235,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/gfsartemisia/artemisiab8r.t
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/gfsartemisia/artemisiarg8a.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/gfsartemisia/artemisiarg8r.tfm
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb

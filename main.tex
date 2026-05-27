@@ -112,10 +112,31 @@ original:
 Con \(\mathbf{r} = (x,y,0)\), aproximamos que para puntos muy alejados \( (x^2 + y^2) \gg a^2 \), de modo que podemos llevar a la
 aproximación de:
 
-\begin{equation}
+\begin{equation} \label{eq:denom-approx}
 	\frac{1}{| \mathbf{r}'^3 |} \approx \frac{1}{r^3} \left( 1 + \frac{3 a x \sin \theta}{r^2} \right)
 \end{equation}
-Describimos de manera explícita la ecuación \ref{eq:Bx} de modo que \(d B_x = \frac{\mu_0 I}{4\pi}  \)
+
+Describimos de manera explícita la ecuación \ref{eq:Bx} de modo que al usar la ecuación \ref{eq:denom-approx} como la aproximación
+para poder estimar analíticamente una expresión para el mismo:
+
+\[
+	\begin{aligned}
+		d B_x & = \frac{\mu_0 I}{4 \pi} \frac{1}{r^3} \left( 1 + \frac{3 a x \sin \theta}{r^2} \right) a y \sin \theta d \theta \\
+		d B_x & = \frac{\mu_0 I a}{4 \pi r^3}
+		\left( y \sin \theta + \frac{3axy \sin^2 \theta}{r^2} \right) d \theta
+	\end{aligned}
+\]
+
+A esta expresión la integramos sobre la curva cerrada de la espira, la cual es propiamente una integral entre los límites de
+\(0 \leq \theta \leq 2 \pi\), de modo que esta componente nos da:
+
+\begin{equation}
+	d B_x = \frac{\mu_0 I a}{4 \pi r^3} \int\limits_{0}^{2 \pi}
+	\left( y \sin \theta + \frac{3axy \sin^2 \theta}{r^2} \right) d \theta
+\end{equation}
+
+Integrar las funciones \(\sin, \cos\) en toda la espira resulta en 0. Por otra parte, la integral de \(\sin^2\) sí tiene una
+integral no nula para estos límites.
 
 \section{Simulación}
 % texto texto
