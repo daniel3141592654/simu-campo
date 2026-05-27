@@ -138,6 +138,26 @@ A esta expresión la integramos sobre la curva cerrada de la espira, la cual es 
 Integrar las funciones \(\sin, \cos\) en toda la espira resulta en 0. Por otra parte, la integral de \(\sin^2\) sí tiene una
 integral no nula para estos límites.
 
+La integral de \( \int_{0}^{2 \pi} \sin ^2 \theta d \theta \) está dada por la identidad de doble ángulo, con la que
+se reescribe \(\sin^2 \theta = \frac{ 1 - \cos 2\theta }{2}\). Integramos esto con una sustitución de \(u = 2 \theta\).
+
+\[
+	\begin{aligned}
+		\int\limits_{0}^{2 \pi} \sin^2 \theta d \theta & = \int\limits_{0}^{4 \pi} \frac{1 - \cos u }{4} d u                 \\
+		                                               & = \left. \frac{1}{4}u \right|_{0}^{4 \pi} + ( \cos 4 \pi - \cos 0 )
+	\end{aligned}
+\]
+
+\begin{equation} \label{eq:sq_sin}
+	\int\limits_{0}^{2 \pi} \sin^2 \theta d \theta = \pi
+\end{equation}
+
+Del resultado de la ecuación \ref{eq:sq_sin} se puede reescribir la expresión para la componente de \(B_x\), de modo que:
+
+\begin{equation}
+	B_x = \frac{\mu_0 I a^2}{4 r^3} \frac{3 x y }{r^2}
+\end{equation}
+
 \section{Simulación}
 % texto texto
 
