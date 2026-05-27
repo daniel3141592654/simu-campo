@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.26)  26 MAY 2026 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.26)  27 MAY 2026 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,51 +741,51 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 14.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 26.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-14.
+26.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-14.
+26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-14.
+26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-4.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-4.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -873,75 +873,75 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
 LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line
- 14.
+ 26.
 LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 16.
+(Font)              scaled to size 16.07027pt on input line 28.
 LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 16.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-6.
+(Font)              scaled to size 11.15991pt on input line 28.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
+8.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-6.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-6.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+artemisia on input 
-line 16.
+line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/ot1artemisia.fd)
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 16.
+(Font)              scaled to size 11.15991pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 7.43994pt on input line 16.
+(Font)              scaled to size 7.43994pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 16.
+(Font)              scaled to size 5.57996pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 20.
+(Font)              scaled to size 9.29993pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 20.
+(Font)              scaled to size 6.50995pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 4.64996pt on input line 20.
+(Font)              scaled to size 4.64996pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 21.
+(Font)              scaled to size 9.29993pt on input line 33.
 LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
-(Font)              scaled to size 6.50995pt on input line 21.
+(Font)              scaled to size 6.50995pt on input line 33.
 LaTeX Font Info:    Font shape `OT1/artemisia/b/n' will be
-(Font)              scaled to size 4.64996pt on input line 21.
+(Font)              scaled to size 4.64996pt on input line 33.
 LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 24.
+(Font)              scaled to size 13.39188pt on input line 36.
 LaTeX Font Info:    Font shape `T1/artemisia/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 24.
+(Font)              scaled to size 13.39188pt on input line 36.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsa
-rtemisia/artemisia.enc}] (./main.aux
+fonts/enc/dvips/gfsartemisia/artemisia.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/base/8r.enc}] [2] (./main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -951,24 +951,25 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7423 strings out of 467356
- 114395 string characters out of 5418691
- 512673 words of memory out of 6000000
- 36393 multiletter control sequences out of 15000+600000
- 661444 words of font info for 127 fonts, out of 8000000 for 9000
+ 7434 strings out of 467356
+ 114596 string characters out of 5418691
+ 523761 words of memory out of 6000000
+ 36403 multiletter control sequences out of 15000+600000
+ 661898 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,8n,67p,503b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 59i,9n,67p,503b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-B
 old.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtem
 isia-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxm
 i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 85004 bytes).
+/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 99551 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

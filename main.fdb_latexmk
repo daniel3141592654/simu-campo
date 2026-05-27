@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779849550.24506 "/home/danielpi/Documents/project/simu-campo/main.tex" "main.pdf" "main" 1779849550.60014 0
-  "/home/danielpi/Documents/project/simu-campo/main.tex" 1779849550.121 1070 476e818d347c3a91ede7edaaafe860f4 ""
+["pdflatex"] 1779902781.27494 "/home/danielpi/Documents/project/simu-campo/main.tex" "main.pdf" "main" 1779902781.60862 0
+  "/home/danielpi/Documents/project/simu-campo/main.tex" 1779902781.19061 3156 f47dc816b12cc6d5cbeaec24a9c19a96 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1777593600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc" 1196103689 3514 0883619cb1aca77d59eef9ca80709d0f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc" 1196103689 3366 e1d4659504bcc77c99da704153dc901d ""
@@ -33,6 +33,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb" 1136849748 6339 e2b78706efdc360ee6aec9b6e20211a7 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb" 1136849748 17531 c91f2d6943f51d7c46d6b7b9cedd50ba ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb" 1136849748 20336 69267d8a81bca8b24c9b42694a4a28f9 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1136849748 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/gfsartemisia/artemisiab8a.vf" 1196103689 1604 638a1f7fc004105acae0448c8cdf8396 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/gfsartemisia/artemisiab9a.vf" 1196103689 1728 478c56758fc5370e643455f89e4501b3 ""
@@ -94,8 +95,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1777593600 43785 66587115382950aca692b5f6e3c2fb74 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779848138 4755195 3c5faef81edf49ccae7e9a68cad95466 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779847783 3527882 f86373f04c8947d2730c4d88ce640e01 ""
-  "main.aux" 1779849550.53499 484 d100156a0d66c42e043a60fff9bd3bbf "pdflatex"
-  "main.tex" 1779849550.121 1070 476e818d347c3a91ede7edaaafe860f4 ""
+  "main.aux" 1779902781.5496 484 0bb0a6a3bcfaae204619079ffb6148a7 "pdflatex"
+  "main.tex" 1779902781.19061 3156 f47dc816b12cc6d5cbeaec24a9c19a96 ""
   (generated)
   "main.aux"
   "main.log"

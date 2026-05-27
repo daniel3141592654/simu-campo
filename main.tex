@@ -11,6 +11,18 @@
 \author{}
 \date{\today}
 
+\def\ii{\, \hat{\imath}  }
+\def\jj{\, \hat{\jmath}  }
+\def\kk{\, \hat{k}}
+
+\newcommand\cross[6]{
+\begin{vmatrix}
+	\ii & \jj & \kk \\
+	#1 & #2 & #3 \\
+	#4 & #5 & #6
+\end{vmatrix}
+}
+
 \begin{document}
 
 \maketitle
@@ -18,20 +30,56 @@
 Se parte de la definición de la ley de Biot-Savart, dada por:
 
 \begin{equation} \label{eq:biot-s}
-	d \mathbf{B} = \frac{\mu_0 I}{4 \pi} \int \frac{ d \mathbf{s} \times \mathbf{r}' }{ | \mathbf{r}' |^3 }
+	\mathbf{B} = \frac{\mu_0 I}{4 \pi} \int \frac{ d \mathbf{s} \times \mathbf{r}' }{ | \mathbf{r}' |^3 }
 \end{equation}
 
 \section{Solución analítica}
-
+\noindent
 Usamos la ecuación \ref{eq:biot-s} para determinar el resultado de la inducción magnética en una espira circular
 con radio \(a\) y sobre un punto con coordenadas en el plano \(x,y\) y que atraviesa al plano en dos puntos.
 
-Tomamos la descripción del campo diferencial sobre el punto y separamos por cada componente:
+Planteamos las direcciones radial y normal como \( \hat{r}, \hat{\theta} \) desde el eje \(z\) hasta \(x\), como
+sería la dirección positiva en este sistema coordenado, de manera que:
 
 \begin{align}
-	d \mathbf{B} _x & = \dots \\
-	d \mathbf{B} _y & = \dots \\
-	d \mathbf{B} _z & = \dots
+	\hat{a}      & = \sin \theta \ii + 0 \jj + \cos \theta \kk \\
+	\hat{\theta} & = \cos \theta \ii + 0 \jj - \sin \theta \kk
+\end{align}
+
+Tomamos la definición de un vector de posición relativa a la espira, \(\mathbf{r}'\), como
+\(\mathbf{a} + \mathbf{r}' = \mathbf{r} \), de la cual despejamos \(\mathbf{r}'\):
+
+\[
+	\begin{aligned}
+		\mathbf{r}' & = ( x \ii + y \jj + 0 \kk) - a ( \sin \theta \ii + 0 \jj + \cos \theta \kk ) \\
+		            & = (x - a \sin \theta) \ii + y \jj - a \cos \theta \kk
+	\end{aligned}
+\]
+
+Definimos el vector \(d \mathbf{s}\) con magnitud dada por \(a d \theta\) y la dirección dada por
+el vector \(\hat{\theta}\). Expandimos entonces la operación vectorial principal de
+\( \frac{1}{| \mathbf{r}' |} d \mathbf{s} \times \mathbf{r'} \) a la expresión:
+
+\begin{equation}
+	d \mathbf{s} \times \mathbf{r}' = \cross{a \cos \theta d \theta}{0}{-a \sin \theta d \theta}{(x-a\sin \theta)}{y}{-a \cos \theta}
+\end{equation}
+
+Operando el determinante, el producto vectorial resulta en:
+
+\[
+	\begin{aligned}
+		d \mathbf{s} \times \mathbf{r}' & = ay \sin \theta \ii - [ -a^2 \cos^2 \theta + a \sin \theta (x-a\sin \theta) ] \jj + ay \cos \theta \kk \\
+		                                & = ay \sin \theta \ii + (a^2 - ax \sin \theta) \jj + ay \cos \theta \kk
+	\end{aligned}
+\]
+
+Para integrar cada una de las componentes, separamos la expresión en la constante magnética, el denominador de \( |\mathbf{r}'| ^3\), y la
+parte con el producto vectorial, producto escalar con el vector de la coordenada:
+
+\begin{align}
+	d B_x & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \ii \\
+	d B_y & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \jj \\
+	d B_k & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \kk
 \end{align}
 
 \section{Simulación}
