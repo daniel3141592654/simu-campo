@@ -77,10 +77,45 @@ Para integrar cada una de las componentes, separamos la expresión en la constan
 parte con el producto vectorial, producto escalar con el vector de la coordenada:
 
 \begin{align}
-	d B_x & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \ii \\
-	d B_y & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \jj \\
-	d B_k & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \kk
+	d B_x & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \ii \label{eq:Bx} \\
+	d B_y & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \jj               \\
+	d B_z & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \kk
 \end{align}
+
+Para expresar el denominador, debemos encontrar primero una expresión para la magnitud de \(\mathbf{r}'\), lo cual estará dado por:
+\[
+	\begin{aligned}
+		| \mathbf{r}' | & = \sqrt{ (x - a \sin \theta)^2 + y^2 + a^2 \cos^2 \theta }                        \\
+		                & = \sqrt{ x^2 - 2 a x \sin \theta + a^2 \sin^2 \theta + y^2 + a^2 \cos ^2 \theta }
+	\end{aligned}
+\]
+
+\begin{equation} \label{eq:r'-norm}
+	| \mathbf{r}' | = \sqrt{ x^2 + y^2 + a^2 - 2 a x \sin \theta }
+\end{equation}
+
+De la ecuación \ref{eq:r'-norm} solamente reescribimos la raíz como potencia de \(1/2\) y el denominador de \(1/\sqrt{p}^3\) a la forma
+\( p ^{-3/2} \). Asimismo, reescribimos en forma de binomio, para poder hacer una aproximación.
+
+\begin{equation} \label{eq:denom}
+	\frac{1}{| \mathbf{r}' |^3} = (x^2 + y^2 + a^2)^{-3/2} \left( 1 - \frac{2 a x \sin \theta}{x^2 + y^2 + a^2} \right)^{-3/2}
+\end{equation}
+
+De la ecuación \ref{eq:denom} tomamos el factor derecho y lo simplificamos a la expresión \( (1 + b)^{-3/2} \), posteriormente haciendo
+la aproximación binomial a un término, sabemos que \( (1+b)^{-3/2} \approx 1 - \frac{3}{2} b \). Reemplazamos \(b\) con la ecuación
+original:
+
+\[
+	\frac{1}{| \mathbf{r}'^3 |} \approx (x^2 + y^2 + a^2)^{-3/2} \left( 1 + \frac{3}{2} \frac{2 a x \sin \theta}{x^2 + y^2 + a^2} \right)
+\]
+
+Con \(\mathbf{r} = (x,y,0)\), aproximamos que para puntos muy alejados \( (x^2 + y^2) \gg a^2 \), de modo que podemos llevar a la
+aproximación de:
+
+\begin{equation}
+	\frac{1}{| \mathbf{r}'^3 |} \approx \frac{1}{r^3} \left( 1 + \frac{3 a x \sin \theta}{r^2} \right)
+\end{equation}
+Describimos de manera explícita la ecuación \ref{eq:Bx} de modo que \(d B_x = \frac{\mu_0 I}{4\pi}  \)
 
 \section{Simulación}
 % texto texto
