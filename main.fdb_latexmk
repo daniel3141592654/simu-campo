@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779925099.94272 "/home/danielpi/Documents/project/simu-campo/main.tex" "main.pdf" "main" 1779925100.27363 0
-  "/home/danielpi/Documents/project/simu-campo/main.tex" 1779925099.83647 7704 aae2b59449adf54846dce46fc9d12a53 ""
+["pdflatex"] 1779940564.75852 "/home/danielpi/Documents/project/simu-campo/main.tex" "main.pdf" "main" 1779940565.15771 0
+  "/home/danielpi/Documents/project/simu-campo/main.tex" 1779940564.69156 10245 f16e7b54b0169f50f2b518a8493ffdd3 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1777593600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc" 1196103689 3514 0883619cb1aca77d59eef9ca80709d0f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc" 1196103689 3366 e1d4659504bcc77c99da704153dc901d ""
@@ -17,6 +17,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm" 1136768653 4452 0fd0a792eaab7113e4d4f1b941ff0367 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm" 1136768653 4640 ce59980bcbe9e6236fab46d0b5212c7e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm" 1136768653 1004 c0e991f864f31f017ea4ff9e451b76d4 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm" 1136768653 1384 8943063000d26272532f74ca134dfecd ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txex.tfm" 1136768653 1080 b674b4ba143004461509a754a0984b67 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm" 1136768653 688 f56006d6e56f46e63d9f63252958b828 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txi.tfm" 1136768653 2584 cf4a6a7c2a518d47468fe29ef0913ba0 ""
@@ -31,6 +32,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb" 1196103689 224272 7688c6d2fc76b3872d8697dd5b3f19d0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb" 1232065820 13806 49b888f4605a088e66b9eb4fee320a6e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb" 1136849748 6339 e2b78706efdc360ee6aec9b6e20211a7 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb" 1136849748 26301 f08b3c26ea42c3177a262c2ac37d6a91 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb" 1136849748 17531 c91f2d6943f51d7c46d6b7b9cedd50ba ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb" 1136849748 20336 69267d8a81bca8b24c9b42694a4a28f9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -86,6 +88,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd" 1137111002 329 6ac7e19535b9f1d64e4d8e3f77dc30a3 ""
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd" 1137111002 312 11fe1916b0a13a81a05234a6fc7f8738 ""
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd" 1137111002 1271 4e3afbd8e832f2f9c7f064894e6e68e4 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd" 1137111002 1324 7b6c95370a64cd8c7620cbefefb53dba ""
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty" 1206746551 50381 d367461010070c7a491b1f6979ab2062 ""
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd" 1137111002 310 1b00b0b05685b816e4c6caccce437e0d ""
   "/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd" 1137111002 334 87436a82076ca2e35cd305f852507afc ""
@@ -95,8 +98,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1777593600 43785 66587115382950aca692b5f6e3c2fb74 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779848138 4755195 3c5faef81edf49ccae7e9a68cad95466 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779847783 3527882 f86373f04c8947d2730c4d88ce640e01 ""
-  "main.aux" 1779925100.21146 797 d32d9ee435ce86e8d18084840378cbfe "pdflatex"
-  "main.tex" 1779925099.83647 7704 aae2b59449adf54846dce46fc9d12a53 ""
+  "main.aux" 1779940565.09455 895 28f87c5bffcfcad443da9c34a508904e "pdflatex"
+  "main.tex" 1779940564.69156 10245 f16e7b54b0169f50f2b518a8493ffdd3 ""
   (generated)
   "main.aux"
   "main.log"
