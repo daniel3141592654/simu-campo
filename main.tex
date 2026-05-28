@@ -78,8 +78,8 @@ parte con el producto vectorial, producto escalar con el vector de la coordenada
 
 \begin{align}
 	d B_x & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \ii \label{eq:Bx} \\
-	d B_y & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \jj               \\
-	d B_z & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \kk
+	d B_y & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \jj \label{eq:By} \\
+	d B_z & = \frac{\mu_0 I}{4 \pi}  \frac{1}{|\mathbf{r}'|^3} \left( d \mathbf{s} \times \mathbf{r}' \right) \cdot \kk \label{eq:Bz}
 \end{align}
 
 Para expresar el denominador, debemos encontrar primero una expresión para la magnitud de \(\mathbf{r}'\), lo cual estará dado por:
@@ -156,6 +156,30 @@ Del resultado de la ecuación \ref{eq:sq_sin} se puede reescribir la expresión 
 
 \begin{equation}
 	B_x = \frac{\mu_0 I a^2}{4 r^3} \frac{3 x y }{r^2}
+\end{equation}
+
+Repetimos esto con la componente vertical, tomando su forma diferencial desde la ecuación \ref{eq:By}:
+
+\[
+	\begin{aligned}
+		d B_y & = \frac{\mu_0 I}{4 \pi r^3} \left( 1 + \frac{3 a x \sin \theta}{r^2} \right) (a^2 - a x \sin \theta) d \theta                                 \\
+		      & = \frac{\mu_0 I a}{4 \pi r^3} \left( a - x \sin \theta - \frac{3a^2 x \sin \theta}{r^2} + \frac{3 a x^2 \sin ^2 \theta}{r^2} \right) d \theta
+	\end{aligned}
+\]
+
+Volvemos a tomar el resultado de \ref{eq:sq_sin} para integrar esta expresión.
+
+\[
+	\begin{aligned}
+		B_y & = \frac{\mu_0 I a}{4 \pi r^3} \left( 2 \pi a - \frac{3 a x^2}{r^2} \pi \right) \\
+		    & = \frac{\mu_0 I a^2}{4 r^3} \left( 2 - \frac{3x^2}{r^2} \right)                \\
+		    & = \frac{\mu_0 I a^2}{2 r^3} \left( 1 - \frac{3 x^2}{2 r^2} \right)             \\
+		    & = \frac{\mu_0 I a^2}{2 r^3} \left( \frac{2 x^2 + 2 y^2 - 3x^2}{2r^2} \right)
+	\end{aligned}
+\]
+
+\begin{equation}
+	B_y = \frac{\mu_0 I a^2}{4 r^3} \left( \frac{3 y^2}{r^2} - 1 \right)
 \end{equation}
 
 \section{Simulación}
