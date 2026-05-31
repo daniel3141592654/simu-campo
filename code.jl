@@ -1,11 +1,11 @@
-using LinearAlgebra
-using Plots
 using LaTeXStrings
+using LinearAlgebra
+using CairoMakie
 
-pythonplot()
+# ZedPlotPane.setup_display!()
+# println(ZedPlotPane.plot_path())
 
 x_mesh(start, stop, len) = range(start, stop, len)' .* ones(len)
-
 y_mesh(start, stop, len) = range(start, stop, len) .* ones(len)'
 
 # Constante magnética
@@ -43,13 +43,35 @@ superBZ = reshape([b_component(x[i, j], y[i, j], 3) for j in 1:sizeee for i in 1
 
 Mag_B = reshape([sqrt(superBX[i, j]^2 + superBY[i, j]^2) for j in 1:sizeee for i in 1:sizeee], (sizeee, sizeee));
 
-surf = surface(x, y, Mag_B)
-title!(L"Magnitud de $B$ / plano $xy$")
+f1 = Figure();
+ax = Axis(f1[1, 1],
+    title="Magnitud de B"
+)
+cf = contourf!(x, y, Mag_B, colormap=:viridis)
 
-savefig(surf, "surf.pdf")
-vector_b = contour(x, y, Mag_B, color=:plasma, clabels=false, fill=true)
+Colorbar(f1[1, 2], cf)
 
-quiver!(x, y, quiver=(superBX ./ Mag_B * 5e-2, superBY ./ Mag_B * 5e-2), markersize=1, color=:black)
-title!(L"$\mathbf{B}$ vs. plano $xy$")
+save("contour.pdf", f1)
 
-savefig(vector_b, "campo.pdf")
+f2 = Figure();
+ax2 = Axis(f2[1, 1],
+    title="Campo de B"
+)
+
+cf = contourf!(x, y, Mag_B, colormap=:plasma)
+Colorbar(f2[1, 2], cf)
+
+arrows2d!(x, y, (superBX ./ Mag_B) * 5e-2, (superBY ./ Mag_B) * 5e-2)
+
+save("campo.pdf", f2)
+
+# surf = surface(x, y, Mag_B)
+# title!(L"Magnitud de $B$ / plano $xy$")
+
+# savefig(surf, "surf.pdf")
+# vector_b = contour(x, y, Mag_B, color=:plasma, clabels=false, fill=true)
+
+# quiver!(x, y, quiver=(superBX ./ Mag_B * 5e-2, superBY ./ Mag_B * 5e-2), markersize=1, color=:black)
+# title!(L"$\mathbf{B}$ vs. plano $xy$")
+
+# savefig(vector_b, "campo.pdf")
